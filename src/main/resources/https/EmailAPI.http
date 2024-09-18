@@ -1,0 +1,9 @@
+### send message to email
+POST http://localhost:8080/email/send
+Content-Type: application/json
+
+{
+  "to": "yeie4225@gmail.com",
+  "subject": "ukang",
+  "text":"salom bratan"
+}
